@@ -30,8 +30,7 @@ jobs:
       shell: bash
 
     - name: Upload EXE
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: mouse-clicker-exe
         path: dist/mouse_clicker.exe
-
